@@ -1,0 +1,11 @@
+name: XDP
+version: '1.0-Alpha'
+main: ginreny.xdp.XDP
+api-version: '1.20'
+commands:
+  xdhome: # 命令的基本名
+    aliases: # 别名，方便玩家使用
+      - "xdh"
+      - "xh"
+    usage: "/xdhome <add/delete/tp> <homeNumber>" # 用法
+    description: "Kill some player." # 描述
